@@ -1,6 +1,6 @@
 public class WordleGame {
     public static void main(String[] args) {
-        Wordle wordle = new Wordle("example", 6);
+        Wordle wordle = new Wordle("test", 3);
         wordle.play();
     }
 }
