@@ -12,6 +12,7 @@ public class Wordle {
     public void play() {
         Scanner read = new Scanner(System.in);
         int remainingAttempts = attempts;
+        
 
         while(remainingAttempts > 0) {
             System.out.println("Verbleibende Versuche: " + remainingAttempts);
